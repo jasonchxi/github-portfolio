@@ -1,0 +1,95 @@
+/* Reset default margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f8f9fa;
+    color: #343a40;
+}
+
+.navbar {
+    margin-bottom: 20px;
+}
+
+.jumbotron {
+    background-color: #e9ecef;
+    padding: 2rem 1rem;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Ensure full viewport height */
+}
+
+.background {
+    width: 100%;
+    background: linear-gradient(to bottom, rgba(255, 255, 255, 0), hwb(254 45% 11% / 0.773));
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 2rem 0;
+}
+
+.center-box {
+    background-color: hwb(254 85% 0% / 0.773);
+    padding: 4rem;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    max-width: 1200px;
+    width: 80%;
+    height: auto; /* Adjusted to auto for responsive height */
+    margin-bottom: 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap; /* Allows content to wrap to next line if necessary */
+}
+
+.left-side {
+    flex: 1;
+    text-align: center;
+    font-family: 'Roboto Condensed', sans-serif;
+    padding: 0 10px; /* Added padding for spacing */
+}
+
+.right-side {
+    flex: 1;
+    text-align: center;
+    padding: 0 10px; /* Added padding for spacing */
+}
+
+.profile-img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 50%;
+    overflow: hidden;
+    width: 300px; /* Adjusted width for responsiveness */
+    height: 300px; /* Adjusted height for responsiveness */
+    margin-bottom: 20px;
+}
+
+.additional-content {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 2rem 0;
+}
+
+.content-box {
+    background-color: white;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    max-width: 800px;
+    width: 80%;
+    margin-bottom: 20px;
+}
